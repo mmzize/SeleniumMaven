@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mandla Mzize Tests">
+
+<listeners>
+    <listener class-name="Helper.ExtentReporterNG" />
+</listeners>
+
+    <test verbose="2" name="/Users/nkosicele/Apps/SeleniumMaven">
+        <classes>
+            <class name="TestsClases.ApplyforJobTests">
+            </class>
+            <class name="TestsClases.AnotherTest"/>
+            <class name="TestsClases.NkosiTest"/>
+            <class name="TestsClases.MandlaMzizeTest"/>
+
+        </classes>
+    </test>
+</suite>
